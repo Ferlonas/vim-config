@@ -27,6 +27,10 @@ set clipboard=unnamed
 " Search recursive for ctags file
 set tags=./tags;
 
+" Prevent character errors when logging in via ssh
+set guicursor=
+autocmd OptionSet guicursor noautocmd set guicursor=
+
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Define search options
 set ignorecase
