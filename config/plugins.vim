@@ -69,4 +69,7 @@ Plug 'zchee/deoplete-jedi', {'do': 'make'}
 " Asynchronous Go completion for Neovim. deoplete source for Go.
 Plug 'zchee/deoplete-go', {'do': 'make'}
 
+" Plugin for YAML
+Plug 'avakhov/vim-yaml'
+
 call plug#end()
