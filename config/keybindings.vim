@@ -71,4 +71,7 @@ nnoremap  <leader>ff :call CscopeFind('f', expand('<cword>'))<CR>
 " i: Find files #including this file
 nnoremap  <leader>fi :call CscopeFind('i', expand('<cword>'))<CR>
 
-
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" vim-go specific shortcuts
+nnoremap <C-G><C-B> :GoBuild<CR>
+nnoremap <C-G><C-F> :GoFill<CR>
