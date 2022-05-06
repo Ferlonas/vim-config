@@ -15,6 +15,15 @@ let g:go_highlight_structs = 1
 let g:go_highlight_operators = 1
 let g:go_highlight_build_constraints = 1
 
+" Highlights fields of structs like methods
+" let g:go_highlight_fields = 1
+
+let g:go_highlight_types = 1
+let g:go_highlight_extra_types = 1
+
+" Automatically show signature of functions cursor is on
+let g:go_auto_type_info = 1
+
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Python
 " expand all tabs
