@@ -14,7 +14,7 @@ $ git clone https://github.com/neovim/neovim.git
 2.1 install dependencies (for debian/ubuntu)
 
 ```bash
-$ sudo apt-get install libtool libtool-bin autoconf automake cmake g++ pkg-config unzip
+$ sudo apt-get install libtool libtool-bin autoconf automake cmake g++ pkg-config unzip gettext
 ```
 
 2.2 make neovim
