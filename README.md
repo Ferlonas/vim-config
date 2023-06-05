@@ -85,3 +85,7 @@ $ curl -fLo ~/.config/nvim/autoload/plug.vim --create-dirs https://raw.githubuse
 * [ctags](http://ctags.sourceforge.net)
 * [cscope](http://cscope.sourceforge.net)
 
+# Troubleshooting
+
+## :checkhealth does not work, complains about error in python files
+* make sure pynvim is installed: pip install pynvim

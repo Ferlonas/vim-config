@@ -23,6 +23,7 @@ endif
 
 " use system clipboard
 set clipboard=unnamed
+set clipboard+=unnamedplus
 
 " Search recursive for ctags file
 set tags=./tags;
